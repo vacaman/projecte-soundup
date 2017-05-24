@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="create.php" src="/home/ubuntu/workspace/basic/views/arxiusso/create.php"><import line="3" module="yii\helpers" symbol="Html" /><variable citdl="app\models\Arxiusso" doc="@var $model app\models\Arxiusso" line="9" name="model" /><variable citdl="string" line="9" name="title" /></scope>

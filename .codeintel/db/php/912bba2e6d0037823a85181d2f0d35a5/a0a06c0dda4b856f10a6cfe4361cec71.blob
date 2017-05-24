@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="index.php" src="basic/views/album/index.php"><import line="3" module="yii\helpers" symbol="Html" /><import line="4" module="yii\grid" symbol="GridView" /><variable citdl="yii\data\ActiveDataProvider" doc="@var $dataProvider yii\data\ActiveDataProvider" line="10" name="dataProvider" /><variable citdl="string" line="10" name="title" /></scope>

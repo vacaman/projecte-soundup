@@ -1,0 +1,9 @@
+{
+    "require": {
+        "devgroup/yii2-dropzone": "*",
+        "perminder-klair/yii2-dropzone": "dev-master",
+        "hyii2/yii2-avatar": "dev-master",
+        "2amigos/yii2-file-upload-widget": "~1.0",
+        "maxmirazh33/yii2-uploadable-cropable-image": "*"
+    }
+}

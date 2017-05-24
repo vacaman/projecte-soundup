@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="_form.php" src="/home/ubuntu/workspace/basic/views/arxiusso/_form.php"><import line="3" module="yii\helpers" symbol="Html" /><import line="4" module="yii\widgets" symbol="ActiveForm" /><variable citdl="yii\widgets\ActiveForm" doc="@var $form yii\widgets\ActiveForm" line="13" name="form" /></scope>

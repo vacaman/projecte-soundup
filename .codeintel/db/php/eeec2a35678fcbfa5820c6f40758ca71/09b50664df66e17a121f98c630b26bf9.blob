@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="error.php" src="/home/ubuntu/workspace/basic/views/site/error.php"><import line="8" module="yii\helpers" symbol="Html" /><variable citdl="Exception" doc="@var $exception Exception" line="8" name="exception" /><variable citdl="name" line="10" name="title" /></scope>

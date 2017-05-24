@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="_list.php" src="/home/ubuntu/workspace/basic/vendor/yii2mod/yii2-comments/widgets/views/_list.php"><import line="3" module="yii\helpers" symbol="Html" /><import line="4" module="yii\helpers" symbol="Url" /><variable citdl="null" doc="@var $maxLevel null|integer comments max level" line="10" name="maxLevel" /></scope>

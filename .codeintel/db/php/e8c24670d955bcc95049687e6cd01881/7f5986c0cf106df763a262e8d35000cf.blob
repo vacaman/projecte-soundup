@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="show.php" src="basic/vendor/dektrium/yii2-user/views/profile/show.php"><import line="12" module="yii\helpers" symbol="Html" /><import line="13" module="kartik\file" symbol="FileInput" /><variable citdl="\yii\web\View" doc="@var \yii\web\View $this&#xA;@var \dektrium\user\models\Profile $profile" line="19" name="title" /></scope>

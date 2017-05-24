@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="index.php" src="/home/ubuntu/workspace/basic/views/site/index.php"><import line="4" module="yii\helpers" symbol="Html" /><variable citdl="yii\web\View" doc="@var $this yii\web\View" line="4" name="this" /><variable citdl="string" line="5" name="title" /></scope>

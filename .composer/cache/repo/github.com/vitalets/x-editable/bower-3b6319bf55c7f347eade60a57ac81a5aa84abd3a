@@ -1,0 +1,1 @@
+{"name":"x-editable","version":"1.4.6","main":"dist\/README.md","ignore":["*.*","LICENSE-MIT","node_modules","components","src","test"],"dependencies":{"jquery":">=1.6"},"time":"2013-08-07T20:18:03Z","support":{"source":"https:\/\/github.com\/vitalets\/x-editable\/tree\/1.4.6","issues":"https:\/\/github.com\/vitalets\/x-editable\/issues"}}

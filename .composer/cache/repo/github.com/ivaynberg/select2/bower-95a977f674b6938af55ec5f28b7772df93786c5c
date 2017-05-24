@@ -1,0 +1,1 @@
+{"name":"select2","version":"3.5.4","main":["select2.js","select2.css","select2.png","select2x2.png","select2-spinner.gif"],"dependencies":{"jquery":">= 1.7.1"},"time":"2015-08-30T17:30:38Z","support":{"source":"https:\/\/github.com\/select2\/select2\/tree\/3.5.4","issues":"https:\/\/github.com\/select2\/select2\/issues"}}

@@ -1,0 +1,236 @@
+html,
+body {
+    height: 100%;
+    
+    background: white url("../crossword.png") bottom;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+/* Footer */
+
+.footer-nav li {
+	display:inline-block;
+	vertical-align:middle;
+	*vertical-align:auto;
+	*zoom:1;
+	*display:inline;
+	margin-right: 25px;
+}
+.footer-nav a {
+	color:#0059a5;
+	text-decoration:none
+}
+/* fi footer */
+
+
+.puja-so-gran {
+    height: 15em;
+    border-style: dashed;
+    border-width: 2.5px;
+    border-color: lightgrey;
+    background: url("../img/nuvolbg.png") no-repeat center; 
+    width: 100%;
+}
+
+.vertical-center{
+    min-height: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+}
+
+
+.boto-custom-blau {
+    display:inline-block;
+    color:white;
+    border:1px solid #CCC;
+    
+    background: #207ce5;
+    background: -moz-linear-gradient(top, #207ce5 0%, #207ce5 5%, #207ce5 41%, #499bea 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #207ce5), color-stop(5%, #207ce5), color-stop(41%, #207ce5), color-stop(100%, #499bea));
+    background: -webkit-linear-gradient(top, #207ce5 0%, #207ce5 5%, #207ce5 41%, #499bea 100%);
+    background: -o-linear-gradient(top, #207ce5 0%, #207ce5 5%, #207ce5 41%, #499bea 100%);
+    background: -ms-linear-gradient(top, #207ce5 0%, #207ce5 5%, #207ce5 41%, #499bea 100%);
+    background: linear-gradient(to bottom, #207ce5 0%, #207ce5 5%, #207ce5 41%, #499bea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#499bea', GradientType=0 );
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bolder;
+    
+}
+.boto-custom-blau:active {
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+    
+    background: #499bea;
+    background: -moz-linear-gradient(top, #499bea 0%, #207ce5 59%, #207ce5 95%, #207ce5 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #499bea), color-stop(59%, #207ce5), color-stop(95%, #207ce5), color-stop(100%, #207ce5));
+    background: -webkit-linear-gradient(top, #499bea 0%, #207ce5 59%, #207ce5 95%, #207ce5 100%);
+    background: -o-linear-gradient(top, #499bea 0%, #207ce5 59%, #207ce5 95%, #207ce5 100%);
+    background: -ms-linear-gradient(top, #499bea 0%, #207ce5 59%, #207ce5 95%, #207ce5 100%);
+    background: linear-gradient(to bottom, #499bea 0%, #207ce5 59%, #207ce5 95%, #207ce5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+}
+
+#input-so{
+    display: none;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.boto {
+    background-color: rgb(40, 96, 144);
+    color: white;
+    margin: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    border: 1px solid #2e6da4;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: rgb(46, 109, 164);
+        border-right-color: rgb(46, 109, 164);
+        border-bottom-color: rgb(46, 109, 164);
+        border-left-color: rgb(46, 109, 164);
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+}

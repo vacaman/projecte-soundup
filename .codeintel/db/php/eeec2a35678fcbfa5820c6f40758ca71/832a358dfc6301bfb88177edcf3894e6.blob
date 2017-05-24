@@ -1,0 +1,1 @@
+<scope ilk="blob" lang="PHP" name="login.php" src="/home/ubuntu/workspace/basic/views/site/login.php"><import line="7" module="yii\helpers" symbol="Html" /><import line="8" module="yii\bootstrap" symbol="ActiveForm" /><variable citdl="app\models\LoginForm" doc="@var $model app\models\LoginForm" line="7" name="model" /><variable citdl="string" line="10" name="title" /></scope>
